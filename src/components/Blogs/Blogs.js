@@ -3,6 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
+            <h3 className='m-4 text-slate-600'>Frequently Asked Questions</h3>
             <div className='m-4 p-8 bg-slate-200 rounded-md'>
                 <h4 className='font-bold'>What is the purpose of react router?</h4>
                 <p>React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.</p>
