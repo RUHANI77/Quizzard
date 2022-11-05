@@ -4,12 +4,15 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='header'>
-            <Link to='/home'>Home</Link>
-            <Link to='/quiz'>Quiz</Link>
-            <Link to='/stats'>Stats</Link>
-            <Link to='/blogs'>Blogs</Link>
+        <div>
+            <div className='header'>
+                <Link to='/home'>Home</Link>
+                <Link to='/quiz'>Quiz</Link>
+                <Link to='/stats'>Stats</Link>
+                <Link to='/blogs'>Blogs</Link>
+            </div>
         </div>
+       
     );
 };
 
