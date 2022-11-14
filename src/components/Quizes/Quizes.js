@@ -13,7 +13,7 @@ const Quizes = ({ quiz }) => {
                 <h4 className='font-bold'>{name}</h4>
                 <p>Total Questions: {total}</p>
                 <Link to={`/quiz/${id}`}>
-                    <button className='m-3 px-4 py-2 rounded-lg  bg-lime-300 font-semibold '>Start Now!<ArrowRightIcon className='h-6 w-6 inline space-x-2'></ArrowRightIcon></button>
+                    <button className='m-3 px-4 py-2 rounded-lg  bg-lime-300 font-semibold quiz-button'>Start Now!<ArrowRightIcon className='h-6 w-6 inline space-x-2'></ArrowRightIcon></button>
                 </Link>
             </div>
         </div>
